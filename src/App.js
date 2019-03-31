@@ -3,7 +3,7 @@ import Table from './Table';
 class App extends Component {
     state = {
         characters: [
-            {
+           /* {
                 'name': 'Charlie',
                 'job': 'Janitor'
             },
@@ -18,7 +18,7 @@ class App extends Component {
             {
                 'name': 'Dennis',
                 'job': 'Bartender'
-            }
+            }*/
         ]
     };
     removeCharacter = index => {
